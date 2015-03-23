@@ -1,4 +1,6 @@
 # We Are Done
+
+[![Join the chat at https://gitter.im/WalterC87/weredone](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/WalterC87/weredone?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Hola a todos gracias por querer formar parte de este **Proyecto Colaborativo**, verán será algo Simple y Sencillo lo cual nos ayudará a reafirmar mucho del conocimiento que hemos adquirido a lo largo de todos y cada uno de los cursos que la gente de #Platzi nos ha compartido.
 
 Se que para muchos puede significar tal vez su primer proyecto en colaboración con otras personas que no sean de su país, así como para muchos puede significar muy poco este proyecto por lo simple que puede llegar a verse, pero igual será una experiencia provechosa para todos y nos servirá para crear un bonito proyecto para nuestro portafolio, Ok entremos en materia.
