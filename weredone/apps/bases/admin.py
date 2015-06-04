@@ -1,19 +1,23 @@
 from django.contrib import admin
-from .models import TipoUsuario,TipoObjeto,TipoObjetivo,TipoComentario,TipoInconveniente
+from .models import TipoUsuario, TipoObjeto, TipoObjetivo, TipoComentario, TipoInconveniente
 
-# Register your models here.
-@admin.register(TipoUsuario,TipoObjeto,TipoObjetivo,TipoComentario,TipoInconveniente)
+
+@admin.register(TipoUsuario, TipoObjeto, TipoObjetivo, TipoComentario, TipoInconveniente)
 class TipoUsuarioAdmin(admin.ModelAdmin):
     pass
 
+
 class TipoObjetoAdmin(admin.ModelAdmin):
-	pass
+    pass
+
 
 class TipoObjetivoAdmin(admin.ModelAdmin):
-	pass
+    pass
+
 
 class TipoComentarioAdmin(admin.ModelAdmin):
-	pass
+    pass
+
 
 class TipoInconvenienteAdmin(admin.ModelAdmin):
-	pass
+    pass
