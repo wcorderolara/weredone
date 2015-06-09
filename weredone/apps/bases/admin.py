@@ -1,12 +1,8 @@
 from django.contrib import admin
-from .models import TipoUsuario, TipoObjeto, TipoObjetivo, TipoComentario, TipoInconveniente
+from .models import TipoObjeto, TipoObjetivo, ClaseObjetivo, EstadosGenerale, Tags
 
 
-@admin.register(TipoUsuario, TipoObjeto, TipoObjetivo, TipoComentario, TipoInconveniente)
-class TipoUsuarioAdmin(admin.ModelAdmin):
-    pass
-
-
+@admin.register(TipoObjeto, TipoObjetivo, ClaseObjetivo, EstadosGenerale, Tags)
 class TipoObjetoAdmin(admin.ModelAdmin):
     pass
 
@@ -15,9 +11,13 @@ class TipoObjetivoAdmin(admin.ModelAdmin):
     pass
 
 
-class TipoComentarioAdmin(admin.ModelAdmin):
+class ClaseObjetivoAdmin(admin.ModelAdmin):
     pass
 
 
-class TipoInconvenienteAdmin(admin.ModelAdmin):
+class EstadosGeneralesAdmin(admin.ModelAdmin):
+    pass
+
+
+class TagsAdmin(admin.ModelAdmin):
     pass

@@ -1,0 +1,8 @@
+App propuestas
+
+App1: Usuarios - Proyecto - EstadosGenerales - MiembrosProyecto - ObjetivosProyectos -
+		nivelPrioridad - ClaseObjetivo
+
+App2: Reconocimientos - Tags  - TereasMiembro - Comentarios - Inconvenientes
+
+App3: TipoComentario -  ReconocimientosUsuarios - archivosTareaObjetivo - TareasObjetivo
