@@ -1,8 +1,8 @@
 from django.contrib import admin
-from .models import TipoObjeto, TipoObjetivo, ClaseObjetivo, EstadosGenerale, Tags
+from .models import TipoObjeto, TipoObjetivo, ClaseObjetivo, EstadosGenerales, Tags
 
 
-@admin.register(TipoObjeto, TipoObjetivo, ClaseObjetivo, EstadosGenerale, Tags)
+@admin.register(TipoObjeto, TipoObjetivo, ClaseObjetivo, EstadosGenerales, Tags)
 class TipoObjetoAdmin(admin.ModelAdmin):
     pass
 

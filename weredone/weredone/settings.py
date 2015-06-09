@@ -41,6 +41,8 @@ INSTALLED_APPS = (
     'apps.empresa',
     'apps.reconocimientos',
     'apps.usuarios',
+    'apps.comentarios',
+    'apps.inconvenientes',
 )
 
 MIDDLEWARE_CLASSES = (
