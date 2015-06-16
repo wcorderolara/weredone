@@ -5,7 +5,7 @@ from apps.usuarios.models import *
 class TipoComentario(models.Model):
 	Descripcion = models.CharField(max_length=75)
 	Status = models.BooleanField(default = True)
-
+	
 	class Meta:
 		db_table = 'tipo_comentario'
 

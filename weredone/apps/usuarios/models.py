@@ -15,7 +15,7 @@ class TipoUsuario(models.Model):
 
 
 class Usuario(models.Model):
-  idUsuario = models.ForeignKey(User)
+  idUsuario = models.ForeignKey('self')
   idTipoUsuario = models.ForeignKey(TipoUsuario)
   Nombre = models.CharField(max_length=100)
   Email = models.EmailField(max_length=200, blank=False, unique=True)

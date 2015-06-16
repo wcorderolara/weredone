@@ -63,7 +63,12 @@ class Tags(models.Model):
   def __unicode__(self):
     return self.Description
 
+class nivelPrioridad(models.Model):
+  Descripcion = models.CharField(max_length=50)
+  Status = models.BooleanField(default=True)
 
+  class Meta:
+    db_table = 'niveles_prioridad'
 
 # class TipoComentario(models.Model):
 #   Description = models.CharField(max_length=25)
